@@ -1,0 +1,90 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Project list styles */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+li h3 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+li p {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+li a {
+    font-size: 1.1em;
+    color: #007bff;
+    text-decoration: none;
+    padding: 8px 15px;
+    border: 2px solid #007bff;
+    border-radius: 4px;
+    background-color: #f4f4f9;
+    transition: all 0.3s ease;
+}
+
+/* Hover effect on project links */
+li a:hover {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+}
+
+/* Back to Home link */
+a[href='/'] {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #007bff;
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    background-color: #f4f4f9;
+}
+
+a[href='/']:hover {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+}
